@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form_principal</class>
+ <widget class="QMainWindow" name="form_principal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>618</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Box Behnken Design</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>box_ico.ico</normaloff>box_ico.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>618</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlanejamento">
+    <property name="title">
+     <string>Planejamento</string>
+    </property>
+    <addaction name="actionGerar_Planejamento_2"/>
+   </widget>
+   <widget class="QMenu" name="menuANOVA">
+    <property name="title">
+     <string>ANOVA</string>
+    </property>
+    <addaction name="actionGerar_ANOVA"/>
+   </widget>
+   <widget class="QMenu" name="menuModelo">
+    <property name="title">
+     <string>Modelo</string>
+    </property>
+   </widget>
+   <addaction name="menuPlanejamento"/>
+   <addaction name="menuANOVA"/>
+   <addaction name="menuModelo"/>
+  </widget>
+  <action name="actionGerar_Planejamento">
+   <property name="text">
+    <string>Gerar Planejamento</string>
+   </property>
+  </action>
+  <action name="actionGerar_Planejamento_2">
+   <property name="text">
+    <string>Gerar Planejamento</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionGerar_ANOVA">
+   <property name="text">
+    <string>Gerar ANOVA</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
